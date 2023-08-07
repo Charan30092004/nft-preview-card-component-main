@@ -1,0 +1,126 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+:root{
+font-size: 14px;
+--Very_dark_blue_main_BG: hsl(217, 54%, 11%);
+--Very_dark_blue_Card_BG: hsl(216, 50%, 16%);
+--Very_dark_blue_line: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+--Soft_blue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+}
+
+body
+{
+    width:1440px ;
+    background-color: var(--Very_dark_blue_main_BG);       
+}
+p,#creater
+{
+    color: var(--Soft_blue);
+}
+#main
+{
+    border: 1px solid var(--Very_dark_blue_Card_BG);
+    border-radius: 10px;
+    color:var(--White);
+    background-color: var(--Very_dark_blue_Card_BG);
+    width: 15%;
+    margin: 100px auto;
+    padding: 15px;
+    
+}
+#eth > p{
+    color: var(--Cyan);
+}
+#image
+{
+    background-color: var(--Cyan);
+    
+    border-radius:15px;
+    
+}
+
+#image >img:hover{
+    opacity: 30%;      
+}
+
+
+#image > img
+{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 10px;
+    
+}
+
+#profile > img
+{
+    width: 30px;
+    border: 1px solid var(--White);
+    border-radius: 50%; 
+    margin-right: 15px;
+}
+#creater
+{
+    display: flex;
+    
+    align-items: center;
+}
+#value
+{
+    display: flex;
+    justify-content: space-between;
+}
+#eth
+{
+    display: flex;
+    align-items: center;
+    color: var(--Cyan);
+}
+#days
+{
+    display: flex;
+    align-items: center;
+}
+#name
+{
+    color: Var(--White);
+}
+hr
+{
+    background-color: var(--Very_dark_blue_line);
+}
+h1
+{
+    font-size: 1.8em;
+}
+#view
+{
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    padding-left: 83px;
+    display: none;   
+}
+#view:hover{
+    display: flex;
+}
+
+h1:hover{
+    color: var(--Cyan);
+}
+#name:hover
+{
+    color: var(--Cyan);
+}
+.day,#ethValue
+{
+    padding-right: 7px;
+}
+
+@media 
+
+
