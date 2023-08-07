@@ -19,6 +19,12 @@ p,#creater
 {
     color: var(--Soft_blue);
 }
+hr
+{
+    height: 1px;
+    border: .5px solid var(--Very_dark_blue_line);
+    background-color: var(--Very_dark_blue_line);
+}
 #main
 {
     border: 1px solid var(--Very_dark_blue_Card_BG);
@@ -88,10 +94,6 @@ p,#creater
 {
     color: Var(--White);
 }
-hr
-{
-    background-color: var(--Very_dark_blue_line);
-}
 h1
 {
     font-size: 1.8em;
@@ -121,6 +123,6 @@ h1:hover{
     padding-right: 7px;
 }
 
-@media 
+
 
 
